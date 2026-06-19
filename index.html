@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary Dulakshi ❤️</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=iskoola+pota&display=swap');
+        
+        body { margin: 0; background: #1a0a0a; color: #fff; font-family: 'iskoola pota', sans-serif; text-align: center; overflow-x: hidden; }
+        
+        /* Calendar Section */
+        #calendar-section { height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+        
+        .calendar-top-photo { 
+            width: 250px; height: 250px; object-fit: cover; margin-bottom: 20px; 
+            clip-path: polygon(50% 15%, 61% 0, 75% 0, 85% 7%, 91% 18%, 91% 30%, 85% 43%, 50% 100%, 15% 43%, 9% 30%, 9% 18%, 15% 7%, 25% 0, 39% 0);
+            box-shadow: 0 0 25px rgba(255, 77, 77, 0.7); 
+        }
+        
+        .date-box { font-size: 80px; font-weight: bold; color: #ff4d4d; opacity: 0; animation: fadeIn 2s forwards; }
+        
+        /* Poem Section */
+        .poem-section { padding: 80px 20px; line-height: 2.2; font-size: 22px; background: rgba(255, 255, 255, 0.03); }
+        .heart-icon { color: #ff4d4d; }
+        
+        /* Gallery */
+        .gallery { 
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 30px; padding: 40px; justify-items: center; 
+        }
+        
+        .gallery img { 
+            width: 280px; height: 280px; object-fit: cover; transition: transform 0.3s, filter 0.3s; 
+            clip-path: polygon(50% 15%, 61% 0, 75% 0, 85% 7%, 91% 18%, 91% 30%, 85% 43%, 50% 100%, 15% 43%, 9% 30%, 9% 18%, 15% 7%, 25% 0, 39% 0);
+            border: 2px solid #ff4d4d;
+        }
+        
+        .gallery img:hover { transform: scale(1.1); filter: drop-shadow(0 0 15px rgba(255, 77, 77, 0.9)); }
+        
+        @keyframes fadeIn { from { opacity: 0; transform: scale(0.5); } to { opacity: 1; transform: scale(1); } }
+    </style>
+</head>
+<body>
+
+    <!-- Calendar & Main Photo -->
+    <div id="calendar-section">
+        <img src="main_photo.jpg" alt="Ape Photo" class="calendar-top-photo">
+        <h1>අපේ දිනය</h1>
+        <div class="date-box">08.01</div>
+    </div>
+
+    <!-- Message -->
+    <div class="poem-section">
+        <p>සාරසංඛ්‍ය කල්ප ලක්ෂයක් නැත, සිදුහත්ලාට වගේ ආදරේ කරන්න...<br>
+        ඒ නිසා සොදුර මේ කවිය අඩන්නේ නැතිව ඔයා දැන් බලන්න... ❤️</p>
+        <p>ආයෙ බවයක් නැති වෙයි ඔයා ලග මා නිවෙන්න...<br>
+        ජිවිතේ ගග ගලා යද්දි අපිට අපි වි රැදෙන්න...<br>
+        මේ බවයෙ හදිසියේවත් වෙන වුනොත් මං එක්ක තරහා වෙන්න එපා සොදුර...<br>
+        ආයෙ බවයක් නැ සොදුර රන්ඩු කර කර හඩන්න... ❤️</p>
+        <p>මේ බවයේ අපි ලං වුනා හැමදාම ලග රැදෙන්න...<br>
+        ඔබට බුදුසරණ පතා මම යමි මගේ දිවි සිදින්න...<br>
+        තරහනම් වෙනු එපා.. ඒ ආදරය බව සිතන්න... ❤️</p>
+        <p>නුබව නැති ලොව කුමට මා සිටිනු ඇත තනිව...<br>
+        මැරැණු පසු එක ලගින් අප දෙදෙන මිහිදන් කරන්න... 🥺❤️<br>
+        මගෙ අතින් කැඩුන පොරොන්දුවට ආදරෙන් කමා කරන්න... 🥺❤️<br>
+        නුබ නිසයි මා සතුට වින්දේ සැමදාම...<br>
+        මා කැමති නැ ඒ සතුට නැති වෙනවාට කිසි දිනක... ❤️<br>
+        ආදරෙයි සැමදාම නුබ නැතත් මට හිමිව... 🥺❤️🙏</p>
+    </div>
+
+    <!-- Gallery (6 photos) -->
+    <div class="gallery">
+        <img src="photo1.jpg" alt="Memory 1">
+        <img src="photo2.jpg" alt="Memory 2">
+        <img src="photo3.jpg" alt="Memory 3">
+        <img src="photo4.jpg" alt="Memory 4">
+        <img src="photo5.jpg" alt="Memory 5">
+        <img src="photo6.jpg" alt="Memory 6">
+    </div>
+
+</body>
+</html>
